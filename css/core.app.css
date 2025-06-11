@@ -1,0 +1,154 @@
+#navbar-logout {
+    margin: 10px;
+    padding: 3px 7px;
+}
+
+#navbar-logout:hover {
+    background-color: #c62828;
+}
+
+@media (max-width: 991px) {
+    #navbar-logout {
+        background-color: #ef4836;
+        border-color: #d73925;
+    }
+}
+
+.fast,
+.anim-fast,
+.animation-fast,
+.duration-fast {
+    -moz-animation-duration: 400ms;
+    -webkit-animation-duration: 400ms;
+    animation-duration: 400ms;
+}
+
+.header-app-title {
+    color: #f4f4f4;
+    padding-top: 11px;
+    font-size: 21px;
+    display: inline-block;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+
+.header-display-name {
+    color: #f4f4f4;
+    padding-top: 13px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.app-shortcut {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.app-shortcut:hover, .app-shortcut:active {
+    cursor: pointer;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.app-shortcut.active {
+    background-color: #FFAF00;
+    color:#574620;
+}
+.app-drawer-shortcut {
+    display: inline-block;
+    height: 80px;
+    width: 76px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 0px 2px 3px 0px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+.app-drawer-shortcut:hover, .app-shortcut:active {
+    cursor: pointer;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.app-drawer-shortcut.active {
+    background-color: #FFAF00;
+    color:#574620;
+}
+
+.app-drawer-icon {
+    font-size: 26px;
+}
+
+.app-drawer-name {
+    font-size: 11px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* ------------------------------------------------- */
+/* Application page styling                          */
+
+.app-header {
+    min-height: 0px;
+    border-bottom: 4px solid rgba(100,100,100,0.1);
+    background-color: #fff;
+}
+.app-header h1 { margin-bottom: 0; display:inline; letter-spacing: -1px; }
+.app-header h2 { margin-top: 0; color: #777; }
+
+.notify {
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    border-bottom-width: 5px;
+    color: #fff !important;
+}
+.notify button.close { color: #fff; opacity: 1; }
+
+.notify-info {
+    background-color: #a5b3b9;
+    border-color: #97a4a9;
+}
+
+.notify-danger, .notify-error {
+    border-color: #e26c6c;
+    background-color: #f67777 !important;
+}
+
+.notify-warning {
+    border-color: #F17746;
+    background-color: #f68c57;
+}
+
+.notify-success {
+    border-color: #44b287;
+    background-color: #4bc394;
+}
+
+.notify-title {
+    font-weight: bold;
+}
+
+.notify .error-content p {
+    color: #777 !important;
+}
+
+.border-b { border-bottom: 1px dashed #777; }
+.bg-white { background-color: white; }
+.max640 { max-width: 640px; }
+
+.error {
+    color: #ff0000;
+}
+
+.highlight {
+    background-color: #abbfd8 !important;
+    font-weight: bold;
+}
